@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header';
+import CurlForm from './components/curl_form/CurlForm';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>init</header>
-    </div>
+    <main>
+      <Header />
+      <CurlForm />
+    </main>
   );
 }
 
