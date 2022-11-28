@@ -10,6 +10,7 @@ const Generate = () => {
         size='large'
         color='secondary'
         endIcon={<CheckCircleIcon />}
+        onClick={() => console.log('clicked')}
       >
         Generate!
       </Button>
